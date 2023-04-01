@@ -10,18 +10,20 @@ function App() {
     <div>
       <div>
         <Header />
+        <Color className='last:w-screen'/>
         <Manu />
-        <Color />
       </div>
-      <div className="flex flex-row justify-start">
-        <div>
-          <Sidebar />
+      <div className="flex flex-row justify-between overflow-hidden">
+        <div className="flex flex-row justify-start ">
+          <div className="border-r-2">
+            <Sidebar />
+          </div>
+          <div className="flex flex-col" >
+            <div><Menu /></div>
+          </div>
         </div>
-        <div >
-            <Menu />
-        </div>
-        <div >
-            <Settings />
+        <div className="flex flex-col overflow-hidden last:w-screen">
+            <div><Settings /></div>
         </div>
         
       </div> 

@@ -12,7 +12,7 @@ import { SiNintendogamecube } from "react-icons/si";
 
 function Menu() {
   return (
-    <div className="bg-[#fcfafc] h-screen pl-2 py-1 pr-12  hidden md:flex">
+    <div className="bg-[#ffffff] h-screen pl-2 py-1 pr-12  hidden md:flex">
       <div className="flex flex-col  min-h-screen justify-start ">
         <div className="flex py-5">
           <div>

@@ -13,58 +13,58 @@ import { IoIosRefresh } from "react-icons/io";
 
 function Header() {
   return (
-    <div className="bg-[#fbfcfa] px-2 py-1 border-b-2 border-black-50">
-      <div className="max-w-auto  flex flex-row justify-between mx-none">
-        <div className="flex flex-row justify-start ">
-          <div className="text-[#ff0000]">
-            <RxDotFilled size="1.6rem" />
+    <div className="bg-[#fbfcfa] py-1 border-b-2 border-black-50 items-center">
+      <div className="max-w-auto flex flex-row justify-between">
+        <div className="flex flex-row justify-between items-center ">
+          <div className="text-[#ff0000] text-3xl">
+            <RxDotFilled  />
           </div>
-          <div className="text-[#ffff00]">
-            <RxDotFilled size="1.6rem" />
+          <div className="text-[#ffff00] text-3xl">
+            <RxDotFilled  />
           </div>
-          <div className="text-[#00ff00]">
-            <RxDotFilled size="1.6rem" />
+          <div className="text-[#00ff00] text-3xl">
+            <RxDotFilled  />
           </div>
           <div className="hidden md:flex ">
-            <div className="pl-5">
-              <FiSidebar clasName="hidden md" size="1.7rem" />
+            <div className="pl-3">
+              <FiSidebar />
             </div>
           </div>
-          <div className="pl-5">
-            <RxCaretLeft size="1.7rem" />
+          <div className="pl-3">
+            <RxCaretLeft />
           </div>
           <div>
-            <RxCaretRight size="1.7rem" />
+            <RxCaretRight  />
           </div>
         </div>
-        <div className="hidden md:flex flex-row justify-center">
+        <div className="hidden md:flex flex-row justify-between items-center">
           <div className="px-4">
-            <FaShieldAlt size="1.7rem" />
+            <FaShieldAlt  />
           </div>
-          <div className="flex px-5 border border-black">
+          <div className="flex px-5 border items-center border-black">
             <div className="pl-24 pr-2">
-              <HiLockClosed size="1.4rem" />
+              <HiLockClosed />
             </div>
             <div>untitledui.com</div>
             <div className="pl-24">
-              <IoIosRefresh size="1.4rem" />
+              <IoIosRefresh  />
             </div>
           </div>
         </div>
-        <div className="flex flex-row justify-end">
+        <div className="flex flex-row justify-between items-center">
           <div className="pl-5">
-            <BiDownArrowCircle size="1.7rem" />
+            <BiDownArrowCircle  />
           </div>
           <div className="hidden md:flex">
             <div className="pl-5">
-              <BiExport size="1.7rem" />
+              <BiExport  />
             </div>
           </div>
           <div className="pl-5">
-            <RxPlus size="1.7rem" />
+            <RxPlus  />
           </div>
           <div className="pl-5">
-            <RxCopy size="1.7rem" />
+            <RxCopy />
           </div>
         </div>
       </div>
